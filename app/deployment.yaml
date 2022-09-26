@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         image: quay.io/service-binding/spring-petclinic:latest
         livenessProbe:
           failureThreshold: 8
