@@ -25,7 +25,7 @@ spec:
         imagePullPolicy: IfNotPresent
         image: quay.io/service-binding/spring-petclinic:latest
         livenessProbe:
-          failureThreshold: 8
+          failureThreshold: 10
           httpGet:
             path: /
             port: 8080
