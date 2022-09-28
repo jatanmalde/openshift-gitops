@@ -22,7 +22,7 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      - image: quay.io/siamaksade/spring-petclinic:v1
+      - image: quay.io/siamaksade/spring-petclinic:v3
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 10
